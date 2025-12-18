@@ -1,6 +1,6 @@
 {
-  "name": "subscriptionNFTs",
-  "version": "0.0.0",
+  "name": "subscriptionnfts",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "start": "npx hardhat node",
