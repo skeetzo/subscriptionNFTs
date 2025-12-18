@@ -7,7 +7,7 @@ contract Mock5643 is ERC5643 {
 
     uint256 private _tokenIdCounter;
 
-    constructor() ERC4907("Mock", "MOCK") {}
+    constructor() ERC5643("Mock", "MOCK") {}
 
     function mint(address to) public {
         _mint(to, _tokenIdCounter);

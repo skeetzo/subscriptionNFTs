@@ -1,11 +1,17 @@
 {
   "name": "subscriptionNFTs",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "type": "module",
+  "scripts": {
+    "start": "npx hardhat node",
+    "test": "NODE_ENV=development hardhat test",
+    "test:local": "NODE_ENV=development hardhat test --network localhost"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-ethers": "^4.0.3",
     "@nomicfoundation/hardhat-ignition": "^3.0.6",
     "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^3.0.2",
+    "@openzeppelin/contracts": "^5.4.0",
     "@types/chai": "^4.3.20",
     "@types/chai-as-promised": "^8.0.2",
     "@types/mocha": "^10.0.10",
